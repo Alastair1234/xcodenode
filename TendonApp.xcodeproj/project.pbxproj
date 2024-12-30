@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A8D37B2D22EB88008D3952 /* TendonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8D37A2D22EB88008D3952 /* TendonAppApp.swift */; };
+		F4A8D37D2D22EB88008D3952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8D37C2D22EB88008D3952 /* ContentView.swift */; };
+		F4A8D37F2D22EB8A008D3952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A8D37E2D22EB8A008D3952 /* Assets.xcassets */; };
+		F4A8D3822D22EB8A008D3952 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A8D3812D22EB8A008D3952 /* Preview Assets.xcassets */; };
+		F4A8D38D2D22EB8A008D3952 /* TendonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8D38C2D22EB8A008D3952 /* TendonAppTests.swift */; };
+		F4A8D3972D22EB8A008D3952 /* TendonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8D3962D22EB8A008D3952 /* TendonAppUITests.swift */; };
+		F4A8D3992D22EB8A008D3952 /* TendonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8D3982D22EB8A008D3952 /* TendonAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4A8D3892D22EB8A008D3952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A8D36F2D22EB88008D3952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4A8D3762D22EB88008D3952;
+			remoteInfo = TendonApp;
+		};
+		F4A8D3932D22EB8A008D3952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A8D36F2D22EB88008D3952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4A8D3762D22EB88008D3952;
+			remoteInfo = TendonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4A8D3772D22EB88008D3952 /* TendonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TendonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A8D37A2D22EB88008D3952 /* TendonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonAppApp.swift; sourceTree = "<group>"; };
+		F4A8D37C2D22EB88008D3952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4A8D37E2D22EB8A008D3952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4A8D3812D22EB8A008D3952 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4A8D3832D22EB8A008D3952 /* TendonApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TendonApp.entitlements; sourceTree = "<group>"; };
+		F4A8D3882D22EB8A008D3952 /* TendonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TendonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A8D38C2D22EB8A008D3952 /* TendonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonAppTests.swift; sourceTree = "<group>"; };
+		F4A8D3922D22EB8A008D3952 /* TendonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TendonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A8D3962D22EB8A008D3952 /* TendonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonAppUITests.swift; sourceTree = "<group>"; };
+		F4A8D3982D22EB8A008D3952 /* TendonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A8D3742D22EB88008D3952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A8D3852D22EB8A008D3952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A8D38F2D22EB8A008D3952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A8D36E2D22EB88008D3952 = {
+			isa = PBXGroup;
+			children = (
+				F4A8D3792D22EB88008D3952 /* TendonApp */,
+				F4A8D38B2D22EB8A008D3952 /* TendonAppTests */,
+				F4A8D3952D22EB8A008D3952 /* TendonAppUITests */,
+				F4A8D3782D22EB88008D3952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A8D3782D22EB88008D3952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8D3772D22EB88008D3952 /* TendonApp.app */,
+				F4A8D3882D22EB8A008D3952 /* TendonAppTests.xctest */,
+				F4A8D3922D22EB8A008D3952 /* TendonAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A8D3792D22EB88008D3952 /* TendonApp */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8D37A2D22EB88008D3952 /* TendonAppApp.swift */,
+				F4A8D37C2D22EB88008D3952 /* ContentView.swift */,
+				F4A8D37E2D22EB8A008D3952 /* Assets.xcassets */,
+				F4A8D3832D22EB8A008D3952 /* TendonApp.entitlements */,
+				F4A8D3802D22EB8A008D3952 /* Preview Content */,
+			);
+			path = TendonApp;
+			sourceTree = "<group>";
+		};
+		F4A8D3802D22EB8A008D3952 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8D3812D22EB8A008D3952 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4A8D38B2D22EB8A008D3952 /* TendonAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8D38C2D22EB8A008D3952 /* TendonAppTests.swift */,
+			);
+			path = TendonAppTests;
+			sourceTree = "<group>";
+		};
+		F4A8D3952D22EB8A008D3952 /* TendonAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8D3962D22EB8A008D3952 /* TendonAppUITests.swift */,
+				F4A8D3982D22EB8A008D3952 /* TendonAppUITestsLaunchTests.swift */,
+			);
+			path = TendonAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A8D3762D22EB88008D3952 /* TendonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A8D39C2D22EB8A008D3952 /* Build configuration list for PBXNativeTarget "TendonApp" */;
+			buildPhases = (
+				F4A8D3732D22EB88008D3952 /* Sources */,
+				F4A8D3742D22EB88008D3952 /* Frameworks */,
+				F4A8D3752D22EB88008D3952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TendonApp;
+			productName = TendonApp;
+			productReference = F4A8D3772D22EB88008D3952 /* TendonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4A8D3872D22EB8A008D3952 /* TendonAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A8D39F2D22EB8A008D3952 /* Build configuration list for PBXNativeTarget "TendonAppTests" */;
+			buildPhases = (
+				F4A8D3842D22EB8A008D3952 /* Sources */,
+				F4A8D3852D22EB8A008D3952 /* Frameworks */,
+				F4A8D3862D22EB8A008D3952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4A8D38A2D22EB8A008D3952 /* PBXTargetDependency */,
+			);
+			name = TendonAppTests;
+			productName = TendonAppTests;
+			productReference = F4A8D3882D22EB8A008D3952 /* TendonAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4A8D3912D22EB8A008D3952 /* TendonAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A8D3A22D22EB8A008D3952 /* Build configuration list for PBXNativeTarget "TendonAppUITests" */;
+			buildPhases = (
+				F4A8D38E2D22EB8A008D3952 /* Sources */,
+				F4A8D38F2D22EB8A008D3952 /* Frameworks */,
+				F4A8D3902D22EB8A008D3952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4A8D3942D22EB8A008D3952 /* PBXTargetDependency */,
+			);
+			name = TendonAppUITests;
+			productName = TendonAppUITests;
+			productReference = F4A8D3922D22EB8A008D3952 /* TendonAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A8D36F2D22EB88008D3952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F4A8D3762D22EB88008D3952 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F4A8D3872D22EB8A008D3952 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F4A8D3762D22EB88008D3952;
+					};
+					F4A8D3912D22EB8A008D3952 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F4A8D3762D22EB88008D3952;
+					};
+				};
+			};
+			buildConfigurationList = F4A8D3722D22EB88008D3952 /* Build configuration list for PBXProject "TendonApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4A8D36E2D22EB88008D3952;
+			productRefGroup = F4A8D3782D22EB88008D3952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A8D3762D22EB88008D3952 /* TendonApp */,
+				F4A8D3872D22EB8A008D3952 /* TendonAppTests */,
+				F4A8D3912D22EB8A008D3952 /* TendonAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4A8D3752D22EB88008D3952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A8D3822D22EB8A008D3952 /* Preview Assets.xcassets in Resources */,
+				F4A8D37F2D22EB8A008D3952 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A8D3862D22EB8A008D3952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A8D3902D22EB8A008D3952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A8D3732D22EB88008D3952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A8D37D2D22EB88008D3952 /* ContentView.swift in Sources */,
+				F4A8D37B2D22EB88008D3952 /* TendonAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A8D3842D22EB8A008D3952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A8D38D2D22EB8A008D3952 /* TendonAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A8D38E2D22EB8A008D3952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A8D3992D22EB8A008D3952 /* TendonAppUITestsLaunchTests.swift in Sources */,
+				F4A8D3972D22EB8A008D3952 /* TendonAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4A8D38A2D22EB8A008D3952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4A8D3762D22EB88008D3952 /* TendonApp */;
+			targetProxy = F4A8D3892D22EB8A008D3952 /* PBXContainerItemProxy */;
+		};
+		F4A8D3942D22EB8A008D3952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4A8D3762D22EB88008D3952 /* TendonApp */;
+			targetProxy = F4A8D3932D22EB8A008D3952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4A8D39A2D22EB8A008D3952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4A8D39B2D22EB8A008D3952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F4A8D39D2D22EB8A008D3952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TendonApp/TendonApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TendonApp/Preview Content\"";
+				DEVELOPMENT_TEAM = JK62GLDNJ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deepscope.TendonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4A8D39E2D22EB8A008D3952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TendonApp/TendonApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TendonApp/Preview Content\"";
+				DEVELOPMENT_TEAM = JK62GLDNJ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deepscope.TendonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F4A8D3A02D22EB8A008D3952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JK62GLDNJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deepscope.TendonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TendonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TendonApp";
+			};
+			name = Debug;
+		};
+		F4A8D3A12D22EB8A008D3952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JK62GLDNJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deepscope.TendonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TendonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TendonApp";
+			};
+			name = Release;
+		};
+		F4A8D3A32D22EB8A008D3952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JK62GLDNJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deepscope.TendonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TendonApp;
+			};
+			name = Debug;
+		};
+		F4A8D3A42D22EB8A008D3952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JK62GLDNJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deepscope.TendonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TendonApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A8D3722D22EB88008D3952 /* Build configuration list for PBXProject "TendonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A8D39A2D22EB8A008D3952 /* Debug */,
+				F4A8D39B2D22EB8A008D3952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A8D39C2D22EB8A008D3952 /* Build configuration list for PBXNativeTarget "TendonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A8D39D2D22EB8A008D3952 /* Debug */,
+				F4A8D39E2D22EB8A008D3952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A8D39F2D22EB8A008D3952 /* Build configuration list for PBXNativeTarget "TendonAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A8D3A02D22EB8A008D3952 /* Debug */,
+				F4A8D3A12D22EB8A008D3952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A8D3A22D22EB8A008D3952 /* Build configuration list for PBXNativeTarget "TendonAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A8D3A32D22EB8A008D3952 /* Debug */,
+				F4A8D3A42D22EB8A008D3952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A8D36F2D22EB88008D3952 /* Project object */;
+}
